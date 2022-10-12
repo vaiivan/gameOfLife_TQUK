@@ -1,0 +1,41 @@
+@font-face {
+  font-family: Righteous-Regular;
+  src: url("Righteous-Regular.ttf");
+}
+
+body {
+  padding: 20px;
+  font-family: Righteous-Regular;
+  color: #fee73d;
+  background-color: #202a45;
+  /* background: url(Conways_game_of_life_breeder.png); */
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.main {
+  flex-wrap: wrap;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.picture img {
+  max-width: 100%;
+}
+
+p {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
